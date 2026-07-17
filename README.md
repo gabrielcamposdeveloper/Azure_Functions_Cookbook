@@ -1,4 +1,4 @@
-# 🚀 Azure Functions by Example
+# 🚀 Azure Functions by Example - V1
 
 > Uma coleção de exemplos práticos de **Azure Functions** utilizando **.NET 8 (Isolated Worker)**.
 >
