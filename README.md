@@ -15,6 +15,22 @@ This repository was created to help developers learn Azure Functions through pra
 
 ---
 
+## 📑 Table of Contents
+
+- [🚀 Getting Started (Local Setup)](#-getting-started-local-setup)
+- [📚 Examples](#-examples)
+- [🎯 Goals](#-goals)
+- [🛠️ Technologies](#️-technologies)
+- [📂 Project Structure](#-project-structure)
+- [🚀 Roadmap](#-roadmap)
+- [🤝 Contributing](#-contributing)
+- [📋 Looking for your first contribution?](#-looking-for-your-first-contribution)
+- [⭐ Support the Project](#-support-the-project)
+- [👨‍💻 Author](#-author)
+- [📄 License](#-license)
+
+---
+
 # 🚀 Getting Started (Local Setup)
 
 Want to run these examples on your machine? It's easier than you think! 
@@ -90,79 +106,3 @@ AzureFunctionsCookbook
 ├── Durable Functions
 │
 └── README.md
-
-```
-
----
-
-# 🚀 Roadmap
-
-Upcoming examples:
-
-* Azure Bindings
-* Dependency Injection
-* Configuration
-* Logging
-* Security
-* Testing
-* CI/CD
-* Monitoring
-* Real-world Scenarios
-* Azure SDK examples
-
----
-
-# 🤝 Contributing
-
-Contributions are always welcome!
-
-If you'd like to contribute to this repository, feel free to browse the **Issues** section and pick one that interests you.
-
-You can contribute by:
-
-* Adding new Azure Functions examples
-* Improving existing examples
-* Writing documentation
-* Fixing bugs
-* Improving code quality
-* Suggesting new ideas
-
-If you're working on an issue, simply leave a comment so other contributors know it's already in progress.
-
-Every contribution, regardless of its size, is greatly appreciated.
-
----
-
-# 📋 Looking for your first contribution?
-
-Check out the **Issues** page!
-
-Many issues are suitable for first-time contributors and are a great way to get involved with the project.
-
-Don't see something you'd like to work on?
-
-Feel free to open a new issue with your suggestion!
-
----
-
-# ⭐ Support the Project
-
-If this repository helped you, please consider giving it a ⭐.
-
-Your support helps the project reach more developers and encourages future improvements.
-
----
-
-# 👨‍💻 Author
-
-Created and maintained by **Gabriel Campos**
-
-🐙 GitHub: **[gabrielcamposdeveloper](https://github.com/gabrielcamposdeveloper)**
-
-Feel free to explore my other repositories and connect with me.
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
