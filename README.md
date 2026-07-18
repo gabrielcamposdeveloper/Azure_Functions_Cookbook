@@ -1,4 +1,4 @@
-# 🚀 Azure Functions Cookbook
+# 🚀 Azure Functions Cookbook - Version 2.0
 
 <p align="center">
 
