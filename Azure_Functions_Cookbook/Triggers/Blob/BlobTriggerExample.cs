@@ -1,5 +1,5 @@
 using Microsoft.Azure.Functions.Worker;
-using Microsoft.Azure.Functions.Worker.Extensions.Storage.Blobs;
+using Microsoft.Azure.WebJobs;
 
 namespace AzureFunctionsCookbook;
 
