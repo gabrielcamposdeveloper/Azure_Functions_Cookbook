@@ -1,8 +1,3 @@
-Aqui está o segundo arquivo, o **`Local-Setup.md`**.
-
-Você pode criar a pasta `/Wiki` na raiz do seu projeto (caso ainda não exista) e salvar este conteúdo dentro dela com o nome `Local-Setup.md`.
-
-```markdown
 # 🛠️ Local Setup & Running the Project
 
 Running Azure Functions locally should be simple! We've configured this project to run seamlessly using the local storage emulator, without needing to create real resources on the Azure Portal right away.
@@ -82,7 +77,3 @@ dotnet run
 You will see the message `"Hello Azure Functions!"` on your screen. The `BlobInputBindingExample` successfully read the file from the `documents` container and returned it as an HTTP response.
 
 Happy coding! 🎉
-
-```
-
-```
