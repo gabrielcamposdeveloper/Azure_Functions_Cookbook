@@ -1,8 +1,3 @@
-Com certeza! Um sumário (Table of Contents) ajuda muito na navegação de repositórios completos como o seu. Adicionei a seção **📑 Table of Contents** logo após a introdução.
-
-Aqui está o seu `README.md` atualizado e pronto para copiar e colar:
-
-```markdown
 # 🚀 Azure Functions Cookbook - Version 2.0
 
 <p align="center">
@@ -187,7 +182,3 @@ Feel free to explore my other repositories and connect with me.
 # 📄 License
 
 This project is licensed under the **MIT License**.
-
-```
-
-```
