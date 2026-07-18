@@ -1,48 +1,59 @@
-# 🚀 Azure Functions by Example - V1
+# 🚀 Azure Functions Cookbook
 
-> Uma coleção de exemplos práticos de **Azure Functions** utilizando **.NET 8 (Isolated Worker)**.
->
-> O objetivo deste repositório é ajudar desenvolvedores a aprender Azure Functions através de exemplos simples, organizados e prontos para executar.
+<p align="center">
 
----
+![.NET](https://img.shields.io/badge/.NET%208-512BD4?logo=dotnet&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/Azure%20Functions-0062AD?logo=microsoftazure&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-success)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen)
+</p>
 
-## 📚 O que você encontrará
+> A community-driven collection of practical **Azure Functions** examples built with **.NET 8 Isolated Worker**.
 
-Este repositório reúne exemplos reais dos principais recursos do Azure Functions.
-
-### Triggers
-
-- 🌐 HTTP Trigger
-- ⏰ Timer Trigger
-- 📦 Azure Storage Queue Trigger
-- 📁 Blob Storage Trigger
-- 🚌 Azure Service Bus Trigger
-- 📡 Event Hub Trigger
-- 🌎 Event Grid Trigger
-- 🗄️ Cosmos DB Trigger
-- ⚡ Durable Functions
-- ➕ Novos exemplos serão adicionados continuamente.
+This repository was created to help developers learn Azure Functions through practical, production-inspired examples. Whether you're just getting started or looking for a quick reference, you'll find organized and ready-to-run samples covering the most common Azure Functions scenarios.
 
 ---
 
-## 🎯 Objetivo
+# 📚 Examples
 
-Este projeto foi criado para servir como material de estudo para:
+## Triggers
 
-- estudantes;
-- desenvolvedores iniciantes;
-- desenvolvedores experientes que desejam consultar exemplos rapidamente;
-- pessoas que estão estudando para entrevistas técnicas;
-- profissionais que estão iniciando no ecossistema Microsoft Azure.
-
-Todos os exemplos possuem foco em simplicidade, boas práticas e fácil compreensão.
+- ✅ HTTP Trigger
+- ✅ Timer Trigger
+- ✅ Azure Storage Queue Trigger
+- ✅ Blob Storage Trigger
+- ✅ Azure Service Bus Trigger
+- ✅ Event Hub Trigger
+- ✅ Event Grid Trigger
+- ✅ Cosmos DB Trigger
+- 🚧 Durable Functions
 
 ---
 
-## 🛠️ Tecnologias
+# 🎯 Goals
+
+This project aims to provide high-quality Azure Functions examples for:
+
+- Students
+- Junior Developers
+- Senior Developers
+- Azure enthusiasts
+- Developers preparing for technical interviews
+
+Each example focuses on:
+
+- Clean Code
+- Best Practices
+- Real-world Scenarios
+- Easy to Understand
+- Ready-to-run Samples
+
+---
+
+# 🛠️ Technologies
 
 - .NET 8
-- Azure Functions Isolated Worker
+- Azure Functions (Isolated Worker)
 - Azure Storage
 - Azure Service Bus
 - Azure Event Hub
@@ -52,10 +63,10 @@ Todos os exemplos possuem foco em simplicidade, boas práticas e fácil compreen
 
 ---
 
-## 📂 Estrutura do Projeto
+# 📂 Project Structure
 
 ```text
-Azure-Functions-by-Example
+AzureFunctionsCookbook
 │
 ├── Http Trigger
 ├── Timer Trigger
@@ -72,39 +83,76 @@ Azure-Functions-by-Example
 
 ---
 
-## 🤝 Contribuindo
+# 🚀 Roadmap
 
-Encontrou alguma melhoria ou deseja adicionar um novo exemplo?
+Upcoming examples:
 
-Contribuições são muito bem-vindas!
-
-1. Faça um Fork
-2. Crie uma Branch
-3. Faça suas alterações
-4. Abra um Pull Request
-
----
-
-## ⭐ Gostou do projeto?
-
-Se este repositório te ajudou de alguma forma, considere deixar uma ⭐ no GitHub.
-
-Isso ajuda o projeto a alcançar mais desenvolvedores.
+- Azure Bindings
+- Dependency Injection
+- Configuration
+- Logging
+- Security
+- Testing
+- CI/CD
+- Monitoring
+- Real-world Scenarios
+- Azure SDK examples
 
 ---
 
-## 👨‍💻 Autor
+# 🤝 Contributing
 
-Desenvolvido por **Gabriel Campos**
+Contributions are always welcome!
+
+If you'd like to contribute to this repository, feel free to browse the **Issues** section and pick one that interests you.
+
+You can contribute by:
+
+- Adding new Azure Functions examples
+- Improving existing examples
+- Writing documentation
+- Fixing bugs
+- Improving code quality
+- Suggesting new ideas
+
+If you're working on an issue, simply leave a comment so other contributors know it's already in progress.
+
+Every contribution, regardless of its size, is greatly appreciated.
+
+---
+
+# 📋 Looking for your first contribution?
+
+Check out the **Issues** page!
+
+Many issues are suitable for first-time contributors and are a great way to get involved with the project.
+
+Don't see something you'd like to work on?
+
+Feel free to open a new issue with your suggestion!
+
+---
+
+# ⭐ Support the Project
+
+If this repository helped you, please consider giving it a ⭐.
+
+Your support helps the project reach more developers and encourages future improvements.
+
+---
+
+# 👨‍💻 Author
+
+Created and maintained by **Gabriel Campos**
 
 🐙 GitHub
 
 **https://github.com/gabrielcamposdeveloper**
 
-Confira também meus outros projetos e conteúdos sobre desenvolvimento de software.
+Feel free to explore my other repositories and connect with me.
 
 ---
 
-## 📄 Licença
+# 📄 License
 
-Este projeto está licenciado sob a licença MIT.
+This project is licensed under the **MIT License**.
