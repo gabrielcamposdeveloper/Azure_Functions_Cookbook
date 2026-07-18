@@ -24,6 +24,15 @@ obj/
 # ==========================
 local.settings.json
 
+# ==========================
+# Azurite (Local Storage Emulator)
+# ==========================
+__azurite_db*__.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+azurite_workspace/
+
 # Publish
 publish/
 artifacts/
