@@ -31,6 +31,16 @@ This repository was created to help developers learn Azure Functions through pra
 
 ---
 
+# ⚡ What are Azure Functions?
+
+New to Serverless or the Isolated Worker Model? 
+
+Azure Functions is a serverless compute service that enables you to run event-driven code on-demand without having to explicitly provision or manage infrastructure. 
+
+👉 **[Learn the core concepts and why we use the .NET 8 Isolated Worker Model in our Wiki!](./Wiki/What-Are-Azure-Functions.md)**
+
+---
+
 # 🚀 Getting Started (Local Setup)
 
 Want to run these examples on your machine? It's easier than you think! 
