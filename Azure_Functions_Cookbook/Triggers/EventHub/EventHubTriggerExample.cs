@@ -2,7 +2,8 @@ using Microsoft.Azure.Functions.Worker;
 
 public class EventHubTriggerExample
 {
-    [Function("EventHubTriggerExample")]
+    // Waiting for the EventHubTrigger to be supported in .NET Isolated Worker
+    //[Function("EventHubTriggerExample")]
     public void Run(
         [EventHubTrigger("events")] string[] events)
     {

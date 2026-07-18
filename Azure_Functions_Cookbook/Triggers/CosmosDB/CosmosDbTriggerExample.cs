@@ -3,7 +3,8 @@ using Newtonsoft.Json.Linq;
 
 public class CosmosDbTriggerExample
 {
-    [Function("CosmosDbTriggerExample")]
+    // Waiting for the CosmosDBTrigger to be supported in .NET Isolated Worker
+    //[Function("CosmosDbTriggerExample")]
     public void Run(
         [CosmosDBTrigger(
             databaseName: "SampleDb",
