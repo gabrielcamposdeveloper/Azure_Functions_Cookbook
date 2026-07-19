@@ -8,16 +8,19 @@ public class BlobInputBindingExample
 {
     [Function(nameof(BlobInputBindingExample))]
     public async Task<HttpResponseData> Run(
-        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "blob-input/{fileName}")]
-        HttpRequestData request,
-
-        [BlobInput("documents/{fileName}", Connection = "AzureWebJobsStorage")]
-        string fileContent)
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "blob-input/{fileName}")] HttpRequestData request,
+        [BlobInput("documents/{fileName}")] string? fileContent)
     {
         var response = request.CreateResponse(HttpStatusCode.OK);
 
-        await response.WriteStringAsync(fileContent);
+        if (string.IsNullOrEmpty(fileContent))
+        {
+            response.StatusCode = HttpStatusCode.NotFound;
+            await response.WriteStringAsync("File not found or not yet processed.");
+            return response;
+        }
 
+        await response.WriteStringAsync(fileContent);
         return response;
     }
 }
