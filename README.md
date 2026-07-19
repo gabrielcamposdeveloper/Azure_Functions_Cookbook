@@ -21,7 +21,8 @@ Want to run these examples on your machine? It's easier than you think!
 
 We have prepared a complete, step-by-step guide showing how to set up your local environment, configure the storage emulator (Azurite), and easily test the functions using our helper console app.
 
-👉 **[Check out the Local Setup Guide in our Wiki!](./Wiki/Local-Setup.md)**
+👉 **[Check out the Local Setup Guide in our Wiki!](./Wiki/Blob-Storage-Pipeline.md)**
+👉 **[Check complete Blob Storage Pipeline!](./Wiki/Local-Setup.md)**
 
 ---
 
