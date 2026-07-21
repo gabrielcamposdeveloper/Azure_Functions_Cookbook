@@ -17,6 +17,7 @@ This repository was created to help developers learn Azure Functions through pra
 
 ## 📑 Table of Contents
 
+- [⚡ What are Azure Functions?](#-what-are-azure-functions)
 - [🚀 Getting Started (Local Setup)](#-getting-started-local-setup)
 - [📚 Examples](#-examples)
 - [🎯 Goals](#-goals)
@@ -31,7 +32,7 @@ This repository was created to help developers learn Azure Functions through pra
 
 ---
 
-# ⚡ What are Azure Functions?
+## ⚡ What are Azure Functions?
 
 New to Serverless or the Isolated Worker Model? 
 
@@ -41,22 +42,20 @@ Azure Functions is a serverless compute service that enables you to run event-dr
 
 ---
 
-# 🚀 Getting Started (Local Setup)
+## 🚀 Getting Started (Local Setup)
 
 Want to run these examples on your machine? It's easier than you think! 
 
-We have prepared a complete, step-by-step guide showing how to set up your local environment, configure the storage emulator (Azurite), and easily test the functions using our helper console app.
+We have prepared a complete, step-by-step guide showing how to set up your local environment, configure the storage emulator (Azurite), and easily test the functions using our helper console apps.
 
-👉 **[Check out the Local Setup Guide in our Wiki!](./Wiki/Blob-Storage-Pipeline.md)**
-
-👉 **[Check complete Blob Storage Pipeline!](./Wiki/Local-Setup.md)**
+👉 **[Check out the Local Setup Guide in our Wiki!](./Wiki/Local-Setup.md)**  
+👉 **[Check out the Complete Blob Storage Pipeline Guide!](./Wiki/Blob-Storage-Pipeline.md)**  
 
 ---
 
-# 📚 Examples
+## 📚 Examples
 
-## Triggers
-
+### 🎯 Triggers
 - ✅ HTTP Trigger
 - ✅ Timer Trigger
 - ✅ Azure Storage Queue Trigger
@@ -65,11 +64,20 @@ We have prepared a complete, step-by-step guide showing how to set up your local
 - ✅ Event Hub Trigger
 - ✅ Event Grid Trigger
 - ✅ Cosmos DB Trigger
+- ✅ Kafka Trigger
 - 🚧 Durable Functions
+
+### 🔗 Bindings (Input & Output)
+- ✅ Blob Storage (Input & Output Bindings)
+- ✅ Queue Storage (Output Binding)
+
+### 🛠️ Helper Apps (Event Producers)
+- ✅ **BlobUploader**: A console app to inject test files into Blob Storage.
+- ✅ **QueueUploader**: A console app to send test messages to Queue Storage.
 
 ---
 
-# 🎯 Goals
+## 🎯 Goals
 
 This project aims to provide high-quality Azure Functions examples for:
 
@@ -89,58 +97,64 @@ Each example focuses on:
 
 ---
 
-# 🛠️ Technologies
+## 🛠️ Technologies
 
-- .NET 8
-- Azure Functions (Isolated Worker)
-- Azure Storage
+- .NET 8 (Isolated Worker Model)
+- Azure Storage (Blob & Queue)
 - Azure Service Bus
 - Azure Event Hub
 - Azure Event Grid
 - Azure Cosmos DB
+- Apache Kafka
 - Durable Functions
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
-AzureFunctionsCookbook
+📦 Workspace
 │
-├── Http Trigger
-├── Timer Trigger
-├── Queue Trigger
-├── Blob Trigger
-├── Service Bus Trigger
-├── Event Hub Trigger
-├── Event Grid Trigger
-├── Cosmos DB Trigger
-├── Durable Functions
+├── 📂 AzureFunctionsCookbook (Main Azure Functions API)
+│   ├── 📂 Bindings
+│   │   ├── 📂 Blob
+│   │   └── 📂 Queue
+│   └── 📂 Triggers
+│       ├── 📂 Blob
+│       ├── 📂 CosmosDB
+│       ├── 📂 Durable
+│       ├── 📂 EventGrid
+│       ├── 📂 EventHub
+│       ├── 📂 Http
+│       ├── 📂 Kafka
+│       ├── 📂 Queue
+│       ├── 📂 ServiceBus
+│       └── 📂 Timer
 │
-└── README.md
+├── 📂 BlobUploader (Console App for Blob testing)
+├── 📂 QueueUploader (Console App for Queue testing)
+└── 📂 Wiki (Documentation and Guides)
 
 ```
 
 ---
 
-# 🚀 Roadmap
+## 🚀 Roadmap
 
-Upcoming examples:
+Upcoming implementations and examples:
 
-* Azure Bindings
 * Dependency Injection
-* Configuration
-* Logging
-* Security
-* Testing
-* CI/CD
-* Monitoring
-* Real-world Scenarios
-* Azure SDK examples
+* Advanced Configuration
+* Logging Best Practices
+* Security & Authentication
+* Unit and Integration Testing
+* CI/CD Pipelines (GitHub Actions & Azure DevOps)
+* Monitoring with Application Insights
+* Real-world Scenarios (End-to-End integrations)
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are always welcome!
 
@@ -155,25 +169,19 @@ You can contribute by:
 * Improving code quality
 * Suggesting new ideas
 
-If you're working on an issue, simply leave a comment so other contributors know it's already in progress.
-
-Every contribution, regardless of its size, is greatly appreciated.
+If you're working on an issue, simply leave a comment so other contributors know it's already in progress. Every contribution, regardless of its size, is greatly appreciated.
 
 ---
 
-# 📋 Looking for your first contribution?
+## 📋 Looking for your first contribution?
 
 Check out the **Issues** page!
 
-Many issues are suitable for first-time contributors and are a great way to get involved with the project.
-
-Don't see something you'd like to work on?
-
-Feel free to open a new issue with your suggestion!
+Many issues are suitable for first-time contributors and are a great way to get involved with the project. Don't see something you'd like to work on? Feel free to open a new issue with your suggestion!
 
 ---
 
-# ⭐ Support the Project
+## ⭐ Support the Project
 
 If this repository helped you, please consider giving it a ⭐.
 
@@ -181,7 +189,7 @@ Your support helps the project reach more developers and encourages future impro
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Created and maintained by **Gabriel Campos**
 
@@ -190,7 +198,6 @@ Created and maintained by **Gabriel Campos**
 Feel free to explore my other repositories and connect with me.
 
 ---
+```
 
-# 📄 License
-
-This project is licensed under the **MIT License**.
+```
