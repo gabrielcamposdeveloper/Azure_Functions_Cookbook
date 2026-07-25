@@ -196,9 +196,3 @@ Created and maintained by **Gabriel Campos**
 🐙 GitHub: **[gabrielcamposdeveloper](https://github.com/gabrielcamposdeveloper)**
 
 Feel free to explore my other repositories and connect with me.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
