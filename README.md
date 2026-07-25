@@ -80,13 +80,7 @@ We have prepared a complete, step-by-step guide showing how to set up your local
 ## 🎯 Goals
 
 This project aims to provide high-quality Azure Functions examples for:
-
-- Students
-- Junior Developers
-- Senior Developers
-- Azure enthusiasts
-- Developers preparing for technical interviews
-
+a
 Each example focuses on:
 
 - Clean Code
